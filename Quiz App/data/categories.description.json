@@ -1,0 +1,10 @@
+[
+  {
+    "id": 0,
+    "details": "JavaScript is a dynamic programming language widely used for creating interactive web content. It is essential for web development, allowing developers to add functionality and behavior to websites. JavaScript is lightweight, interpreted, and runs on the client-side, making web pages more engaging and user-friendly."
+  },
+  {
+    "id": 1,
+    "details": "C++ is a high-level, general-purpose programming language created by Bjarne Stroustrup, offering a clear structure to programs and enabling code reuse. It is widely used for developing high-performance applications across various platforms, providing programmers with control over system resources and memory."
+  }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styles/custom/quiz.css">
+  <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/custom/questions.css">
+</head>
+
+<body id="body">
+  <div id="error"></div>
+
+  <header id="header" class="d-flex p-3 align-items-center justify-content-between ">
+    <div id="title" class="d-flex align-items-center text-white ">
+      <div id="quiz-icon">
+        <img src="icons/programming.png" alt="quiz">
+      </div>
+      <h5>Programming and Tech</h5>
+    </div>
+    <div class="btn-close btn-close-white"></div>
+  </header>
+
+  <section class="container-fluid ">
+    <div id="quiz-details" class="container">
+      <h2 id="renderTime">--: -- s</h2>
+      <p>10 out of 30</p>
+      <button id="start-button">Cancel</button>
+    </div>
+    <div id="quiz-questions-box" class="container">
+      <div data-question-no="1" class="box container-fluid">
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <button id="button-submit">SUBMIT</button>
+  </footer>
+  <script type="module" src="scripts/quiz.js"></script>
+</body>
+
+</html>
