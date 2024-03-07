@@ -1,5 +1,5 @@
 async function fetchCategories() {
-  const pathOfJsonFile = await fetch("./../data/categories.json");
+  const pathOfJsonFile = await fetch("../data/categories.json");
   const jsonFormatData = await pathOfJsonFile.json();
 
   let generatedHTML = "";

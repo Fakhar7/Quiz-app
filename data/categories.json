@@ -2,11 +2,11 @@
   {
     "id": 0,
     "name": "Javascript",
-    "image": "./icons/javascript.svg"
+    "image": "icons/javascript.svg"
   },
   {
     "id": 1,
     "name": "C++",
-    "image": "./icons/c++.png"
+    "image": "icons/c.png"
   }
 ]
